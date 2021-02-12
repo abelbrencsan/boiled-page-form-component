@@ -520,9 +520,9 @@ fieldset.form-fieldset {
 }
 
 /* Form group component prototype */
-ul.form-group-list {
+ul.form-group-list.grid {
 
-	> li.form-group-list-item {
+	> li.form-group-list-item.grid-col {
 
 		input.form-input, select.form-input, textarea.form-input {
 			border-radius: 0;
@@ -559,7 +559,7 @@ ul.form-group-list {
 }
 
 /* Form group component extensions */
-ul.form-group-list {
+ul.form-group-list.grid {
 }
 
 /* Form group component scheme modifications */
@@ -567,9 +567,9 @@ ul.form-group-list {
 	@if (map-val($schemes, $scheme, generate-scheme) and $form-group-generate-scheme) {
 		&.scheme--#{$scheme} {
 
-			ul.form-group-list {
+			ul.form-group-list.grid {
 
-				> li.form-group-list-item:not(:last-child) {
+				> li.form-group-list-item.grid-col:not(:last-child) {
 
 					input.form-input, select.form-input, textarea.form-input {
 
