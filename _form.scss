@@ -545,7 +545,7 @@ ul.form-group-list.grid {
 
 		&:not(:last-child) {
 
-			input.form-input, select.form-input, textarea.form-input {
+			input.form-input, select.form-input, textarea.form-input, a.button, button.button {
 				border-right-color: transparent;
 				border-right-width: 0;
 
