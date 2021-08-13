@@ -259,7 +259,6 @@ Form group is intended to group together input, select and textarea form element
 Class name | Description | Example
 ---------- | ----------- | -------
 `form-group-list` | Applies a form group list. Use grid component for alignments. | `<ul class="form-group-list grid"></ul>`
-`form-group-list-item` | Applies a form group list item. | `<li class="form-group-list-item grid-col"></li>`
 
 #### Examples
 
@@ -269,13 +268,13 @@ The following example shows two input form elements grouped together.
 
 ```html
 <ul class="form-group-list grid grid--bottom">
-  <li class="form-group-list-item grid-col grid-col--1of3">
+  <li class="grid-col grid-col--1of3">
     <div class="form-item">
       <label class="form-label" for="zip">ZIP</label>
       <input name="zip" id="zip" class="form-input" type="text" />
     </div>
   </li>
-  <li class="form-group-list-item grid-col grid-col--fit">
+  <li class="grid-col grid-col--fit">
     <div class="form-item">
       <label class="form-label" for="city">City</label>
       <input name="city" id="city" class="form-input" type="text" />
