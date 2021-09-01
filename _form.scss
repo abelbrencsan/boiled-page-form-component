@@ -572,7 +572,7 @@ ul.form-group-list.grid {
 
 			ul.form-group-list.grid {
 
-				> li.form-group-list-item.grid-col:not(:last-child) {
+				> li.grid-col:not(:last-child) {
 
 					input.form-input, select.form-input, textarea.form-input {
 
