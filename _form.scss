@@ -89,7 +89,7 @@ input.form-input, select.form-input, textarea.form-input {
 /* Form input component scheme modifications */
 @each $scheme in map-keys($schemes) {
 	@if (map-val($schemes, $scheme, generate-scheme) and $form-input-generate-scheme) {
-		&.scheme--#{$scheme} {
+		.scheme--#{$scheme} {
 
 			input.form-input, select.form-input, textarea.form-input {
 				border-color: map-val($schemes, $scheme, border-color);
@@ -223,7 +223,7 @@ label.form-control {
 /* Form control component scheme modifications */
 @each $scheme in map-keys($schemes) {
 	@if (map-val($schemes, $scheme, generate-scheme) and $form-control-generate-scheme) {
-		&.scheme--#{$scheme} {
+		.scheme--#{$scheme} {
 
 			label.form-control {
 
@@ -369,7 +369,7 @@ input.form-range {
 /* Form range component scheme modifications */
 @each $scheme in map-keys($schemes) {
 	@if (map-val($schemes, $scheme, generate-scheme) and $form-range-generate-scheme) {
-		&.scheme--#{$scheme} {
+		.scheme--#{$scheme} {
 
 			input.form-range {
 
@@ -446,7 +446,7 @@ label.form-label, legend.form-label, span.form-label {
 /* Form label component scheme modifications */
 @each $scheme in map-keys($schemes) {
 	@if (map-val($schemes, $scheme, generate-scheme) and $form-label-generate-scheme) {
-		&.scheme--#{$scheme} {
+		.scheme--#{$scheme} {
 
 			label.form-label, legend.form-label, span.form-label {
 				color: map-val($schemes, $scheme, fg-bold-color);
@@ -474,7 +474,7 @@ span.form-hint {
 /* Form label component scheme modifications */
 @each $scheme in map-keys($schemes) {
 	@if (map-val($schemes, $scheme, generate-scheme) and $form-label-generate-scheme) {
-		&.scheme--#{$scheme} {
+		.scheme--#{$scheme} {
 
 			span.form-hint {
 				color: map-val($schemes, $scheme, fg-light-color);
@@ -510,7 +510,7 @@ fieldset.form-fieldset {
 /* Form fieldset component scheme modifications */
 @each $scheme in map-keys($schemes) {
 	@if (map-val($schemes, $scheme, generate-scheme) and $form-fieldset-generate-scheme) {
-		&.scheme--#{$scheme} {
+		.scheme--#{$scheme} {
 
 			fieldset.form-fieldset {
 				border-color: map-val($schemes, $scheme, border-color);
@@ -568,7 +568,7 @@ ul.form-group-list.grid {
 /* Form group component scheme modifications */
 @each $scheme in map-keys($schemes) {
 	@if (map-val($schemes, $scheme, generate-scheme) and $form-group-generate-scheme) {
-		&.scheme--#{$scheme} {
+		.scheme--#{$scheme} {
 
 			ul.form-group-list.grid {
 
