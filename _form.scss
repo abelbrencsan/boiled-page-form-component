@@ -601,7 +601,7 @@ div.form-item {
 		display: none;
 	}
 
-	&.is-required label.form-label:after, &.is-required legend.form-label:after, &.is-required span.form-label:after {
+	&.is-required > label.form-label:after, &.is-required > fieldset.form-fieldset > legend.form-label:after, &.is-required > span.form-label:after {
 		content: '*';
 		margin-left: 0.25em;
 	}
